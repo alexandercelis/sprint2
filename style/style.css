@@ -82,7 +82,7 @@ header{
     text-decoration: none;
 }
 
-.group .item_icon img {
+.group #item_icon{
     height: 50px;
 }
 
@@ -108,7 +108,7 @@ header{
     #navBarIcon1,
     #navBarIcon2,
     #navBarIcon3{
-       display: inline;
+       display: inline-block;
     }
 
     .item{
